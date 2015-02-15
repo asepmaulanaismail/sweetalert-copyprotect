@@ -1,5 +1,9 @@
-#Still working
-Features : 
+#[Under Construction] Sweet Alert Copy Protect
+A beautiful way to protect your website's contents
+
+Inspired by Javascript <a href="https://github.com/t4t5/sweetalert">Sweet Alert</a>.
+
+#Features : 
 <ol>
   <li>Disables context menu globally <strong>[DONE]</strong></li>
   <li>Oonly enabled on HREF tags</li>
