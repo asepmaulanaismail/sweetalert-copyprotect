@@ -5,33 +5,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
-  <title>SweetCopyProtect</title>
+  <title>Sweet Alert Copy Protect</title>
   
   <link rel="stylesheet" href="./example.css">
 
   <!-- This is what you need -->
-  <script src="../lib/sweet-copy-protect.js"></script>
-  <link rel="stylesheet" href="../lib/sweet-copy-protect.css">
+  <script src="../lib/sweet-alert-copy-protect.js"></script>
+  <link rel="stylesheet" href="../lib/sweet-alert-copy-protect.css">
   <!--.......................-->
 
 </head>
 
 <body>
 
-<h1>Sweet Alert</h1>
-<h2>A beautiful replacement for Javascript's "Alert"</h2>
+<h1>Sweet Alert Copy Protect</h1>
+<h2>A beautiful way to protect your website's content</h2>
 <button class="download">Download</button>
 
 <!-- What does it do? -->
 <h3>So... What does it do?</h3>
-<p>Here’s a comparison of a standard error message. The first one uses the built-in <strong>alert</strong>-function, while the second is using <strong>sweetAlert</strong>.</p>
+<p>Here’s a comparison of a standard error message. The first one uses the built-in <strong>alert</strong>-function, while the second is using <strong>sweetAlertCopyProtect</strong>.</p>
 
 <div class="showcase normal">
 	<h4>Normal alert</h4>
-	<button>Show error message</button>
+	<p>Copy this message</p>
 
 	<h5>Code:</h5>
-	<pre><span class="func">alert</span>(<span class="str">"Oops... Something went wrong!"</span>);
+	<pre><span class="func">alert</span>(<span class="str">"Oops... You've tried to open context menu"</span>);
 
 	</pre>
 
@@ -39,19 +39,16 @@
 </div>
 
 <div class="showcase sweet">
-	<h4>Sweet Alert</h4>
-	<button>Show error message</button>
+	<h4>Sweet Alert Copy Protect</h4>
+	<p>Copy this message</p>
 
 	<h5>Code:</h5>
-	<pre>sweetAlert(<span class="str">"Oops..."</span>, <span class="str">"Something went wrong!"</span>, <span class="str">"error"</span>);</pre>
+	<pre>sweetAlertCopyProtect();</pre>
 </div>
 
 <p>Pretty cool huh? SweetAlert automatically centers itself on the page and looks great no matter if you're using a desktop computer, mobile or tablet. It's even highly customizeable, as you can see below!</p>
 <script>
-	sweetCopyProtect({
-		message: "New Message",
-		title: "New Title"
-	});
+	sweetAlertCopyProtect();
 </script>
 
 
